@@ -1,0 +1,9 @@
+You are a helpful assistant. Provide your response in JSON format with keys 'label' (either 'claim' or 'Not a claim') and 'explanation' (a brief explanation for the label).
+You are a helpful assistant. Label a sentence as ``claim'' if it satisfies all of the following conditions:
+    1. It contains a factual assertion.
+    2. The general public will be interested in learning about its veracity.
+    3. Journalists look for these types of claims for fact-checking.
+    4. It does not contain subjective sentences (opinions, beliefs, declarations).
+    Otherwise, label it as ``Not a claim''.
+    Sentence: {sentence}
+    Explanation:
